@@ -449,20 +449,6 @@
               "priority": 102,
               "direction": "Inbound"
             }
-          },
-          {
-            "name": "Block_All_In",
-            "properties": {
-              "description": "Block everything else",
-              "protocol": "*",
-              "sourcePortRange": "*",
-              "destinationPortRange": "*",
-              "sourceAddressPrefix": "Internet",
-              "destinationAddressPrefix": "*",
-              "access": "Deny",
-              "priority": 200,
-              "direction": "Inbound"
-            }
           }
         ]
       }
